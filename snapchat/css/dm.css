@@ -1,0 +1,109 @@
+*
+	{
+		font-family: 'Heebo', sans-serif;
+		list-style:none;
+	}
+a
+	{
+		text-decoration:none;
+	}
+	
+* a:hover
+	{
+		color:red;
+	}
+	
+.float-img{
+			float:right;
+			padding: 14px 13px;
+}
+
+.sfloat-img{
+			float:left;
+			padding: 14px 13px;
+}
+header>h1
+	{
+		font-family: "Seaweed Script";
+		text-align:center;
+		color:#FFFF00;
+	}
+
+.navbar 
+	{
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+.navbar a 
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+.navbar a:hover
+	{
+		background-color:#FFFF00;
+	}
+	
+.dm
+	{
+		text-align:center;
+		position: -webkit-sticky;
+		position:sticky;
+		top: 0;
+		font-size:30px;
+		color:white;
+		background-color:#FFFF00;
+		opacity:0.9;
+	}
+	
+h1
+	{
+		text-align:center;
+	}
+	
+.left
+	{
+		align:left;
+	}
+
+.directory a
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		margin: 14px 16px; 
+		text-decoration: none;
+		background-color: #FFFF00;
+	}
+	
+.directory a:hover
+	{
+		background-color:black;
+	}
+	
+footer
+	{
+		text-align:center;
+		background-color:#333;
+		color:white;
+		margin-top:150px;
+	}
+	
+#button
+	{
+		background-color:silver;
+	}
+	
+#button:hover
+	{
+		background-color:#FFFF00;
+		color:white;
+	}

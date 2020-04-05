@@ -1,0 +1,111 @@
+*
+	{
+		font-family: 'Heebo', sans-serif;
+		list-style:none;
+	}
+a
+	{
+		text-decoration:none;
+	}
+	
+* a:hover
+	{
+		color:red;
+	}
+	
+header>h1
+	{
+		font-family: "Seaweed Script";
+		text-align:center;
+		color:#1052A0;
+	}
+
+marquee 
+	{
+         background-color:#1052A0;
+		 font-size:20px;
+		 color:white;
+		 width: 100%;
+		 padding: 0.5% 0;
+		 margin-bottom:0.2%;
+		 font-family: 'Martel', serif;
+	}
+	
+.navbar 
+	{
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+.navbar a 
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+.navbar a:hover
+	{
+		background-color:#1052A0;
+	}
+	
+#culture
+	{
+		text-align:center;
+		position: -webkit-sticky;
+		position:sticky;
+		top: 0;
+		font-size:30px;
+		color:white;
+		background-color:#1052A0;
+		opacity:0.9;
+	}
+	
+#para
+	{
+		margin:5%;
+		text-align:center;
+		font-size:20px;
+		border:2px solid black;
+		padding:5px;
+		background-color:silver;
+	}
+	
+.directory a
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		margin: 14px 16px; 
+		text-decoration: none;
+		background-color: #1052A0;
+	}
+	
+.directory a:hover
+	{
+		background-color:black;
+	}
+	
+footer
+	{
+		text-align:center;
+		background-color:#333;
+		color:white;
+		margin-top:180px;
+	}
+	
+#button
+	{
+		background-color:silver;
+	}
+	
+#button:hover
+	{
+		background-color:#1052A0;
+		color:white;
+	}

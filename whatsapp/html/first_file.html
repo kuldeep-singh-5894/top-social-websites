@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<title>whatsApp Information</title><head>
+	<meta charset="utf-8">
+	<meta name="description" content="Information about whatsApp">
+	<meta name="keyword" content="whatsApp Information,About whatsApp,whatsApp Corporate affairs">
+	<meta name="author" content="sukhdeep Singh">
+	<link rel="stylesheet" href="../css/br.css">
+	</head>
+	
+		<div class="navbar">
+				<a href="../../home_page.html">Home</a>
+				<a href="../../fb/fb_html/fb_home.html">Facebook</a>
+				<a href="first_file.html">Whatsapp</a>
+				<a href="../../instagram/html/Features and Tools.html">Instagram</a>
+				<a href="../../snapchat/html/main.html">Snapchat</a>
+				<a href="../../about_us.html">About Us</a>
+			</ul>
+		</div>
+		<marquee> Brief information about whatsApp</marquee>
+			<div class="navbar">
+				<nav>
+					<a href="whatsapp history.html">1.WhatsApp History</a><br>
+					<a href="whatsapp culture.html">2.whatsApp culture </a><br>
+					<a href="leadership.html">3.leadership </a><br>
+					<a href="gallery.html">4.gallery </a>
+				</nav>
+			</div>
+	<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+	<img src="pic8.jpg" alt="whatsApp web" ><img src="pic12.jpg" alt="whatsApp up web" ><img src="pic15.jpg" alt="whatsApp up up web" >
+			<h2>Overview about whatsApp</h2>
+			<h3>Terms</h3>
+			<b>Public Key Types</b><br>
+			Identity Key Pair – A long-term Curve25519 key pair, generated at install time . • Signed Pre Key – A medium-term Curve25519 key pair, generated at install time, signed by the Identity Key, and rotated on a periodic timed basis . • One-Time Pre Keys – A queue of Curve25519 key pairs for one time use, generated at install time, and replenished as needed .
+			Session Key Types • Root Key – A 32-byte value that is used to create Chain Keys . • Chain Key – A 32-byte value that is used to create Message Keys . • Message Key – An 80-byte value that is used to encrypt message contents. 32 bytes are used for an AES-256 key, 32 bytes for a HMAC-SHA256 key, and 16 bytes for an IV</p><br>
+			<p><b>Client Registration</b><br>
+At registration time, a WhatsApp client transmits its public Identity Key, public Signed Pre Key (with its signature), and a batch of public One-Time Pre Keys to the server . The WhatsApp server stores these public keys associated with the user’s identifier. At no time does the WhatsApp server have access to any of the client’s private keys. for more client login nformation please just give a click on <a href="https://www.loginwassap.com/">client login </a> </p><br>
+			<p><b>Exchanging Messages</b><br>
+Once a session has been established, clients exchange messages that are protected with a Message Key using AES256 in CbC mode for encryption and HMAC-SHA256 for authentication .
+<a href="https://www.iwhatsappweb.co/">whatsApp web</a>.
+The Message Key changes for each message transmitted, and is ephemeral, such that the Message Key used to encrypt a message cannot be reconstructed from the session state after a message has been transmitted or received .
+The Message Key is derived from a sender’s Chain Key that “ratchets” forward with every message sent . Additionally, a new ECDH agreement is performed with each message roundtrip to create a new Chain Key . This provides forward secrecy through the combination of both an immediate “hash ratchet” and a round trip “DH ratchet .”
+</p><br>
+			<p><b>Statuses</b><br>
+WhatsApp statuses are encrypted in much the same way as group messages. The first status sent to a given set of recipients follows the same sequence of steps as the first time a WhatsApp group member sends a message to a group . Similarly, subsequent statuses sent to the same set of recipients follow the same sequence of steps as all subsequent messages to a group . When a status sender removes a receiver either through changing status privacy settings or removing a number from their address book, the status sender clears their Sender Key and starts over</p>
+		</body>
+		<li class="xxlarge"><img src="icon2.png" alt="whatsApp" align="center";>
+		<footer>
+		<a href="#top"><h2 id="button">Back to Top</h2></a>
+		<h3>Student of Lambton College #c0742439</h3>
+		<p id="bottom">&copy;2018 Web Page By sukhdeep Singh</p>
+	</footer>
+	</html>

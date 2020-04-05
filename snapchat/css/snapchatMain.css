@@ -1,0 +1,107 @@
+*
+	{
+		font-family: 'Heebo', sans-serif;
+		list-style:none;
+	}
+	
+a
+	{
+		text-decoration:none;
+	}
+	
+* a:hover
+	{
+		color:red;
+	}
+	
+header>h1
+	{
+		font-family: "Seaweed Script";
+		text-align:center;
+		color:#FFFF00;
+	}
+	
+
+
+	
+.navbar 
+	{
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+.navbar a 
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+.navbar a:hover
+	{
+		background-color:#FFFF00;
+	}
+
+iframe
+	{
+		width:100%;
+		height:50%;
+		
+		margin-top:2%;
+	}
+	
+div>h1
+	{
+		text-align:center;	
+	}
+	
+div>p
+	{
+		font-size:20px;
+		color:blue;
+	}
+	
+.directory
+	{
+		margin-bottom:120px;
+		
+	}
+	
+.directory a
+	{
+		float: left;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		margin: 40px 16px; 
+		text-decoration: none;
+		background-color: #FFFF00;
+	}
+	
+.directory a:hover
+	{
+		background-color:black;
+	}
+	
+footer
+	{
+		text-align:center;
+		background-color:#333;
+		color:white;
+		margin-top:280px;
+	}
+
+#button
+	{
+		background-color:silver;
+	}
+	
+#button:hover
+	{
+		background-color:#FFFF00;
+		color:white;
+	}
